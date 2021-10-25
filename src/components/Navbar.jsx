@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import {Search,ShoppingCartOutlined} from "@material-ui/icons"
 import { Badge } from '@material-ui/core'
 import { mobile } from "../responsive";
+import { Link } from 'react-router-dom';
 const Container = styled.div`
 height:60px;
 ${mobile({ height: "50px" })}
@@ -59,6 +60,7 @@ const MenuItem = styled.div`
 font-size:14px;
 cursor:pointer;
 margin-left:25px;
+
 ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `
 const Image = styled.img`
@@ -75,16 +77,24 @@ export const Navbar = () => {
                         <Search style={{ color:"gray",fontSize:16}}/>
                     </SearchContainer>
                 </Left>
-                <Center> <Image src="logo.png"  />  <Logo>PlantArt</Logo></Center>
+                
+                <Center> <Image src="logo.png"  /> <Link to={`/`} style={{textDecoration:"none",color:"inherit"}}>   <Logo>PlantArt</Logo> </Link> </Center>
                 <Right>
-
-                <MenuItem>S'INSCRIRE</MenuItem>
-                <MenuItem>LOGIN</MenuItem>
-                <MenuItem>
+<Link style={{textDecoration:"none",color:"inherit"}} to={`/register`}>
+<MenuItem>S'INSCRIRE</MenuItem>
+</Link>
+<Link style={{textDecoration:"none",color:"inherit"}} to={`/login`}>
+<MenuItem>LOGIN</MenuItem>
+</Link>    
+<Link style={{textDecoration:"none",color:"inherit"}} to={`/cart`}>
+<MenuItem>
                     <Badge badgeContent={4} color="primary" >
                         <ShoppingCartOutlined/>
                     </Badge>
                 </MenuItem>
+</Link> 
+              
+                
 
                 </Right>
                 
