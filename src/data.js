@@ -72,3 +72,38 @@ export const categories = [
       img:"https://images.pexels.com/photos/1869107/pexels-photo-1869107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     },
   ]
+
+  export const accessoires = [
+    {
+      id:1,
+      img:"https://www.cdiscount.com/pdt2/0/8/3/1/700x700/dew5035048659083/rw/dewalt-tronconneuse-a-batterie-54v-3ah-40cm-dc.jpg",
+    },
+    {
+      id:2,
+      img:"https://www.ahladecor.tn/wp-content/uploads/2019/08/pot-en-resine-cubique-2.jpg",
+    },
+    {
+      id:3,
+      img:"https://www.cdiscount.com/pdt2/5/1/8/1/700x700/auc2008962636518/rw/point-d-arrosage-automatique-d-arrosage-de-systeme.jpg",
+    },
+    {
+      id:4,
+      img:"https://tdiscount.tn/7639-original/minuterie-d-arrosage-wt-2-karcher.jpg",
+    },
+    {
+      id:5,
+      img:"https://jnina.tn/93-large_default/cisaille-a-haies-.jpg",
+    },
+    {
+      id:6,
+      img:"https://www.mr-bricolage.be/55158-thickbox_default/arrosoir-extra-fort-13-l-avec-pomme-en-lation.jpg",
+    },
+    {
+      id:7,
+      img:"https://www.cdiscount.com/pdt2/3/0/6/1/700x700/auc4250835868306/rw/lot-3-x-canne-de-bambou-artificielle-tige-de-bam.jpg",
+    },
+    {
+      id:8,
+      img:"https://www.cdiscount.com/pdt2/0/4/7/1/700x700/pri5055372378047/rw/cache-pot-cube-en-fibre-d-argile-gris-fonce-30cm.jpg",
+    },
+  ]

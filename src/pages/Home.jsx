@@ -5,6 +5,7 @@ import { Categories } from '../components/Categories'
 import { Footer } from '../components/Footer'
 import { Navbar } from '../components/Navbar'
 import { Products } from '../components/Products'
+import { Accessoires } from '../components/Accessoires'
 import { Slider } from '../components/Slider'
 import { Newsletter } from './../components/Newsletter';
 
@@ -15,7 +16,7 @@ export const Home = () => {
             <Navbar/>
             <Slider/>
             <Categories/>
-            <Products/>
+            <Accessoires/>
             <Newsletter/>
             <Footer/>
         </div>
